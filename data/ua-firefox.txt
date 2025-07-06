@@ -1,0 +1,190 @@
+   Link: canonical
+   Link: alternate en
+   Link: alternate x-default
+   Link: preload prefetch
+   WhatIsMyBrowser.com
+     * My browser
+     * Guides
+     * Detect my settings
+     * Tools
+    1. Homepage 
+    2. Guides 
+    3. Latest browser user agents 
+    4. What are the latest user agents for Firefox?
+
+                                                                                                  The latest user agents for web browsers on Firefox
+
+   Updated at: Jul 6, 2025
+
+   Mozilla Firefox runs on a several different operating systems and the user agent structure for each varies a bit.
+
+   Here we have the latest user agents for Firefox on Windows, macOS, Linux, iOS and Android.
+
+Notice - this article is for the Techies!
+
+   The information on this page is of a more technical nature, and might not be what you're after. You only need the info here if you really know what you're doing.
+
+   Please note that these are very "stock-standard" Firefox user agents and certainly don't reflect the wide variety of possible Firefox user agents that exist today. These user agents don't show anyextra addons, network providers or anything
+   else customised or particular; these are just the standard user agents.
+
+   Explore our huge user agent listing, download our user agents database, (or you can search it) if you're curious about other user agents.
+
+Get latest user agents for Firefox via API
+
+   Our Web Browser/Operating System Version Numbers API endpoint will provide you with the latest user agents for all sorts of popular web browsers and operating systems.
+
+Latest Firefox on Desktop User Agents
+
+   Platform           Latest Firefox User Agents                                                                
+   Firefox on Windows   * Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0      
+   Firefox on Macos     * Mozilla/5.0 (Macintosh; Intel Mac OS X 15.5; rv:140.0) Gecko/20100101 Firefox/140.0   
+                        * Mozilla/5.0 (X11; Linux i686; rv:140.0) Gecko/20100101 Firefox/140.0                  
+                        * Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0                
+   Firefox on Linux     * Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:140.0) Gecko/20100101 Firefox/140.0          
+                        * Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0        
+                        * Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0        
+
+Latest Firefox on iOS User Agents
+
+   Platform          Latest Firefox User Agents                                                                                                                         
+   Firefox on Iphone   * Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/140.0 Mobile/15E148 Safari/605.1.15      
+   Firefox on Ipad     * Mozilla/5.0 (iPad; CPU OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/140.0 Mobile/15E148 Safari/605.1.15               
+   Firefox on Ipod     * Mozilla/5.0 (iPod touch; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) FxiOS/140.0 Mobile/15E148 Safari/605.1.15   
+
+Latest Firefox on Android User Agents
+
+   Platform           Latest Firefox User Agents                                                          
+   Firefox (Standard)   * Mozilla/5.0 (Android 16; Mobile; rv:140.0) Gecko/140.0 Firefox/140.0            
+   Firefox on Lg        * Mozilla/5.0 (Android 16; Mobile; LG-M255; rv:140.0) Gecko/140.0 Firefox/140.0   
+
+Latest Firefox Extended Support Release (ESR) on Desktop User Agents
+
+   Platform           Latest Firefox User Agents                                                                
+   Firefox on Windows   * Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0      
+   Firefox on Macos     * Mozilla/5.0 (Macintosh; Intel Mac OS X 15.5; rv:140.0) Gecko/20100101 Firefox/140.0   
+                        * Mozilla/5.0 (X11; Linux i686; rv:140.0) Gecko/20100101 Firefox/140.0                  
+                        * Mozilla/5.0 (Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0                     
+   Firefox on Linux     * Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:140.0) Gecko/20100101 Firefox/140.0          
+                        * Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0        
+                        * Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0        
+
+Special notes
+
+  Major release version numbers only
+
+   For a while now, Firefox's user agent has only included the "major release" version number in the user agent; so while a copy of Firefox might actually be version 61.0.2, it would only be reported as version "61.0" in the user agent.
+
+  Experiment with different user agents
+
+   You can use our User Agent Parser page to try out different user agent varieties, or to test if your user agent switcher is working properly.
+
+Database of user agents
+
+   If you're interested in our database of many millions of user agents, please check out our API which provides access to our user agent database. You can perform very detailed and specific queries on it to find user agents that match your
+   exact criteria - version numbers, hardware types, platforms and so on.
+
+   Ads by Google
+
+Update my web browser
+
+     * Do I need to update my browser?
+
+       Find out if your browser is out of date
+       Is my browser out of date?
+
+     * Why should I update my browser?
+
+       There are very good reasons to, find out here!
+       Why update your browser?
+
+     * Is it free to update Chrome?
+
+       Find out about the cost of updating Chrome...
+       Does Chrome cost anything?
+
+   Read more about updating your browser...
+
+Get help with our guides
+
+     * How to enable JavaScript
+
+       Change your JavaScript settings
+       Guide to enabling Javascript
+
+     * How to enable Cookies
+
+       Configure your cookie settings for privacy
+       Guide to enabling cookies
+
+   Ads by Google
+
+Related articles
+
+     * Web Browsers without AI
+
+       Some web browsers manufacturers have started adding AI features to their browsers, others have decided not to.
+       Which web browsers don't have AI in them?
+
+     * I can't log in to a website.
+
+       We've got a detailed guide to help you solve login problems
+       How to fix website log in problems
+
+     * Why do websites use cookies?
+
+       Why are cookies useful? Do you need them?
+       What's the deal with cookies?
+
+     * Clear Cache, Cookies and History
+
+       How to reset your browsing history
+       How to reset your browser
+
+     * Try a different web browser
+
+       Different web browsers have different features - try a different one to see if you prefer it.
+       Experiment a bit!
+
+     * Use a VPN to hide your IP address
+
+       We recommend NordVPN to hide your IP address or to unblock websites.
+       Hide your IP Address
+
+Guides
+
+     * Clear Cache, History and Cookies
+     * Search whatismybrowser.com
+     * Guides about the Internet
+     * Why update my browser?
+
+Tools
+
+     * Use our IFrame on your site
+     * User agent parser
+     * Send browser info via email
+     * Minimum System Requirements
+
+Developers
+
+     * Latest user agents
+     * User Agent Parsing API
+     * Explore User Agents
+     * Frequently Asked Questions
+
+Connect
+
+     * About Us
+     * Contact Us
+     * Status
+     * Media Kit
+
+Other languages
+
+     * What is my browser?
+     * Quel est mon navigateur ?
+     * Was ist mein Browser?
+     * ¿Cual es mi navegador?
+     * Qual é o meu navegador?
+     * Aký mám prehliadač?
+   Accessibility Statement Security Statement
+   WhatIsMyBrowser.com © 2010 - 2025. Legal
