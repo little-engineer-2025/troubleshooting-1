@@ -46,3 +46,9 @@ total 1096
   - [CAPE Sandbox report](https://www.virustotal.com/ui/file_behaviours/54653bfd567c9d6633296bc8c2e9f929c3e589e56811caf683642f73764c2e81_CAPE%20Sandbox/html)
   - [Zenbox report](https://www.virustotal.com/ui/file_behaviours/54653bfd567c9d6633296bc8c2e9f929c3e589e56811caf683642f73764c2e81_Zenbox/html)
 
+## 7-jul-2025
+
+- After indenting the content for `payload-curl.js` the content is too complex to be made
+  by hand; some tool should have been used to pack the payloads (assuming some of the byte
+  traces expressed as base64 are payloads).
+
