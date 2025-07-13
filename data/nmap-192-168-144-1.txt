@@ -1,0 +1,9 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2025-06-06 13:32 CEST
+Nmap scan report for 192.168.144.1
+Host is up (0.00024s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+443/tcp filtered https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.74 seconds
