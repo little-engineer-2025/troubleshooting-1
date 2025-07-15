@@ -120,3 +120,14 @@ rpm packages installed from unknown source. From this list are removed the
 firefox browser and the chromium browser which where uninstalled as soon as the
 situation was discovered.
 
+## 15-jul-2025
+
+- Today I get the below for traceroute to the public IP:
+
+```raw
+traceroute -I -n $(public-ip)
+traceroute to 176.85.0.4 (176.85.0.4), 30 hops max, 60 byte packets
+ 1  192.168.50.1  0.819 ms  0.766 ms  0.757 ms
+ 2  176.85.0.4  1.673 ms  1.663 ms  2.152 ms
+ ```
+
