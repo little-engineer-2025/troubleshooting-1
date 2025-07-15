@@ -110,4 +110,13 @@ traceroute to 79.145.194.226 (79.145.194.226), 30 hops max, 60 byte packets
 - The above we can see that the "public IP" is just out of my personal router,
   so it is not happening .
 
+## 14-jul-2025
+
+A regression situation happened because the mitigation stopped working for some
+period of time.
+
+See: [2025-07-15-fix-unknown.txt](data/2025-07-15-fix-unknown.txt) for the list of
+rpm packages installed from unknown source. From this list are removed the
+firefox browser and the chromium browser which where uninstalled as soon as the
+situation was discovered.
 
