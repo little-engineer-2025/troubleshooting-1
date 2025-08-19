@@ -563,3 +563,28 @@ No failures on the certificate chain in the system so:
 
 This is in a fresh re-installed system.
 
+## 19-ago-2025 - detected another payload at o2online.es
+
+I have observed a download at https://o2online.es similar to what I have observed
+at the previous operator web page; /hypothesis) probably I am receiving a wrong
+content that inject the payload to be executed from the Internet browser.
+
+The file is 'output.f66d5730807c.js' and can be located at the data payloads
+directory.
+
+The analysis by VirusTotal is worried at:
+https://www.virustotal.com/gui/file/b744a700db211fd330a4a9150348413eb8415615e2eb3ab12299cf9791452bd9/behavior
+
+The analysis by VirusTotal for the ungziped version:
+https://www.virustotal.com/gui/file/f66d5730807c7e3af4fbcf2470f9dd98f50213ef9c4601bc75b93ebcb9c969e9/behavior
+
+- The payload is not detected by any antivirus engineer.
+- Based on the behavior analysis it has a bootkit, which is very dangerous
+  for the persistency that it provides, because some of them resist to format
+  and reinstallation of the system.
+- The file seems to be the jquery library, but it should not have that results
+  in VirusTotal, so probably the malware is being hidden in a tempered library.
+- I downloaded the official 3.5.1 jquery library version minified, and the
+  files does not match; the size differ in 1 character; downloaded from:
+  https://code.jquery.com/jquery-3.5.1.min.js
+
