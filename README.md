@@ -588,3 +588,9 @@ https://www.virustotal.com/gui/file/f66d5730807c7e3af4fbcf2470f9dd98f50213ef9c46
   files does not match; the size differ in 1 character; downloaded from:
   https://code.jquery.com/jquery-3.5.1.min.js
 
+## 2-sep-2025
+
+see: https://www.redhat.com/en/blog/interrupt-linux-boot-process
+
+Stop boot sequence into initramdisk by using "rd.break=premount"
+
