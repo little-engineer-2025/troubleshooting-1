@@ -617,3 +617,11 @@ sep 28 14:51:22 systemd[1]: NetworkManager-initrd.service: Two services allocate
 Why is coming a NetworkManager instance coming from the initrd? Where is this service coming from? It was not found yet in the
 initramdisk at `/boot/initramfs-linux-asahi.img`
 
+Located the service at `/usr/lib/systemd/system/` directory:
+
+```raw
+$ ll /usr/lib/systemd/system/*-initrd* >> README.md
+-rw-r--r-- 1 root root  877 sep 18 03:52 /usr/lib/systemd/system/NetworkManager-config-initrd.service
+-rw-r--r-- 1 root root 1370 sep 18 03:52 /usr/lib/systemd/system/NetworkManager-initrd.service
+-rw-r--r-- 1 root root  930 sep 18 03:52 /usr/lib/systemd/system/NetworkManager-wait-online-initrd.service
+-rw-r--r-- 1 root root  909 sep  4 20:35 /usr/lib/systemd/system/systemd-pcrphase-initrd.service
