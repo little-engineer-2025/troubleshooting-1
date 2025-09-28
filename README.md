@@ -594,3 +594,26 @@ see: https://www.redhat.com/en/blog/interrupt-linux-boot-process
 
 Stop boot sequence into initramdisk by using "rd.break=premount"
 
+## 28-sep-2025
+
+When I achieve to boot the system, I observe in the logs the below:
+
+```raw
+$ journalctl --no-hostname | grep NetworkManager-initrd >> README.md
+ago 26 08:17:54 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+ago 26 08:17:54 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+ago 26 22:49:12 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+ago 26 22:49:12 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 20 05:44:36 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 20 05:44:36 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 20 05:55:39 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 20 05:55:39 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 20 05:58:40 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 20 05:58:40 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 28 14:51:22 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+sep 28 14:51:22 systemd[1]: NetworkManager-initrd.service: Two services allocated for the same bus name org.freedesktop.NetworkManager, refusing operation.
+```
+
+Why is coming a NetworkManager instance coming from the initrd? Where is this service coming from? It was not found yet in the
+initramdisk at `/boot/initramfs-linux-asahi.img`
+
