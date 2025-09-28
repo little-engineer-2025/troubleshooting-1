@@ -625,3 +625,6 @@ $ ll /usr/lib/systemd/system/*-initrd* >> README.md
 -rw-r--r-- 1 root root 1370 sep 18 03:52 /usr/lib/systemd/system/NetworkManager-initrd.service
 -rw-r--r-- 1 root root  930 sep 18 03:52 /usr/lib/systemd/system/NetworkManager-wait-online-initrd.service
 -rw-r--r-- 1 root root  909 sep  4 20:35 /usr/lib/systemd/system/systemd-pcrphase-initrd.service
+```
+
+A copy of this files uploaded at data/20250928
