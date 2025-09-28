@@ -628,3 +628,66 @@ $ ll /usr/lib/systemd/system/*-initrd* >> README.md
 ```
 
 A copy of this files uploaded at data/20250928
+
+---
+
+Excessive BPF load/unload programs:
+
+```raw
+sep 28 19:52:15 systemd[1]: Starting Power off Bluetooth and WiFi devices...
+sep 28 19:52:15 audit: BPF prog-id=189 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=185 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=190 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=179 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=191 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=192 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=180 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=181 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=193 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=187 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=194 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=166 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=195 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=196 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=167 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=168 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=197 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=198 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=170 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=171 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=199 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=200 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=163 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=164 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=201 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=188 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=202 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=176 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=203 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=204 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=177 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=178 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=205 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=182 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=206 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=207 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=183 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=184 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=208 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=165 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=209 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=186 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=210 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=175 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=211 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=169 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=212 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=172 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=213 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=214 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=173 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=174 op=UNLOAD
+sep 28 19:52:15 audit: BPF prog-id=215 op=LOAD
+sep 28 19:52:15 audit: BPF prog-id=162 op=UNLOAD
+```
+
