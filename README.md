@@ -691,3 +691,24 @@ sep 28 19:52:15 audit: BPF prog-id=215 op=LOAD
 sep 28 19:52:15 audit: BPF prog-id=162 op=UNLOAD
 ```
 
+## 1-Oct-2025
+
+Firefox fails to open when it was running previously; after some finetunes to
+the script that run it by bwrap, I got the below in strace:
+
+```raw
+[pid 10217] connect(10, {sa_family=AF_UNIX, sun_path="/run/user/1000/wayland-0"}, 110 <unfinished ...>
+[pid 10224] getrandom( <unfinished ...>
+[pid 10217] <... connect resumed>)      = -1 ENOENT (No existe el fichero o el directorio)
+```
+
+And the error message displayed in the console is:
+
+```raw
+[2] Wayland Proxy [0xffffa9468480] Error: CheckWaylandDisplay(): Failed to connect to Wayland display '/run/user/1000/wayland-0' error: No existe el fichero o el directorio
+Error: we don't have any display, WAYLAND_DISPLAY='wayland-0' DISPLAY='(null)'
+```
+
+I am mapping the socket `/run/user/1000/wayland-0`
+
+
