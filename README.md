@@ -711,4 +711,8 @@ Error: we don't have any display, WAYLAND_DISPLAY='wayland-0' DISPLAY='(null)'
 
 I am mapping the socket `/run/user/1000/wayland-0`
 
+## 4-Oct-2025
 
+I observe the journal traces below (see: [data/20251004/journalctl.log](data/20251004/journalctl.log).
+
+Over there we can see how the OBEX service is started.

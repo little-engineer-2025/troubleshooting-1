@@ -1,0 +1,37 @@
+oct 04 18:18:46 systemd[1]: Starting Power off Bluetooth and WiFi devices...
+oct 04 18:18:46 systemd[1]: Starting Kill obexd and wpa_supplicant...
+oct 04 18:18:46 systemd[1]: kill-wireless.service: Deactivated successfully.
+oct 04 18:18:46 systemd[1]: Finished Kill obexd and wpa_supplicant.
+oct 04 18:18:46 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=kill-wireless comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+oct 04 18:18:46 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=kill-wireless comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+oct 04 18:18:46 systemd[1]: fix-power.service: Deactivated successfully.
+oct 04 18:18:46 systemd[1]: Finished Power off Bluetooth and WiFi devices.
+oct 04 18:18:46 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=fix-power comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+oct 04 18:18:46 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=fix-power comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+oct 04 18:19:07 gnome-shell[1720]: Received error from D-Bus search provider firefox.desktop: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.Calculator.SearchProvider@3.service.
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.Characters@3.service.
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.Contacts.SearchProvider@3.service.
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.Epiphany.SearchProvider@3.service.
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.Nautilus@3.service.
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.Settings.SearchProvider@3.service.
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.clocks@3.service.
+oct 04 18:19:07 nautilus[8520]: Connecting to org.freedesktop.Tracker3.Miner.Files
+oct 04 18:19:07 systemd[1584]: Starting Bluetooth OBEX service...
+oct 04 18:19:07 obexd[8577]: OBEX daemon 5.83
+oct 04 18:19:07 systemd[1584]: Started Bluetooth OBEX service.
+oct 04 18:19:07 systemd[1584]: Started dbus-:1.2-org.gnome.NautilusPreviewer@3.service.
+oct 04 18:19:07 gnome-character[8517]: JS LOG: Characters Application started
+oct 04 18:19:07 rtkit-daemon[1094]: Supervising 7 threads of 4 processes of 1 users.
+oct 04 18:19:07 rtkit-daemon[1094]: Failed to look up client: No such file or directory
+oct 04 18:19:07 kernel: [NFT INET OUTPUT REJECTED] IN= OUT=enu1u4 SRC=10.159.114.150 DST=10.159.114.201 LEN=64 TOS=0x00 PREC=0x00 TTL=64 ID=58792 DF PROTO=TCP SPT=37310 DPT=853 WINDOW=64240 RES=0x00 SYN URGP=0 
+oct 04 18:19:07 gnome-shell[1720]: Received error from D-Bus search provider firefox.desktop: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+oct 04 18:19:07 gnome-shell[1720]: Received error from D-Bus search provider firefox.desktop: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+oct 04 18:19:08 systemd[1584]: Started dbus-:1.2-org.gnome.Console@2.service.
+oct 04 18:19:08 systemd[1584]: Started VTE child process 8671 launched by kgx process 8664.
+oct 04 18:19:17 gnome-character[8517]: JS LOG: Characters Application exiting
+oct 04 18:19:17 systemd[1584]: dbus-:1.2-org.gnome.Characters@3.service: Consumed 213ms CPU time, 91.6M memory peak.
+oct 04 18:19:43 systemd[1]: Starting Kill obexd and wpa_supplicant...
+oct 04 18:19:43 obexd[8577]: Terminating
+oct 04 18:19:43 systemd[1]: kill-wireless.service: Deactivated successfully.
+oct 04 18:19:43 systemd[1]: Finished Kill obexd and wpa_supplicant.
